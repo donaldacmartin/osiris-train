@@ -5,8 +5,9 @@ description = ""
 authors = ["Donald AC Martin <donald@donald-martin.ca>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "3.9"
 firebase-admin = "^5.2.0"
+tensorflow-ranking = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
